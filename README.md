@@ -1,2 +1,3 @@
-# 105116-cod-frontend
-atividades e projetos da matéria codificação para front end
+
+
+Todas as atividades tem sua própria pasta na raiz do repositório
