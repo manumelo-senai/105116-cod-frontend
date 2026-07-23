@@ -1,1 +1,0 @@
-Todas as atividades tem sua própria pasta na raiz do repositório
