@@ -1,0 +1,39 @@
+body {
+    background-color: whitesmoke;
+
+    text-align: center;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+h3 {
+    color: #003985;
+}
+
+.faixa-azul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #003985;
+  z-index: 1000;
+}
+
+.logo {
+    position: static;
+    top: 0;
+    left: 0;
+}
+.cabecalho {
+    align-items: center;
+    padding: 15px 30px;
+}
+
+.menu-navegacao ul {
+  list-style: none;
+  margin: 20px;
+  padding: 0;
+  display: flex;
+  gap: 20px; 
+}
