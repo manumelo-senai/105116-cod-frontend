@@ -11,13 +11,13 @@ h3 {
 }
 
 .faixa-azul {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 200px;
-  height: 100%;
-  background-color: #003985;
-  z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #003985;
+    z-index: 1000;
 }
 
 .logo {
@@ -31,9 +31,49 @@ h3 {
 }
 
 .menu-navegacao ul {
-  list-style: none;
-  margin: 20px;
-  padding: 0;
-  display: flex;
-  gap: 20px; 
+    font-size: 21px;
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.menu-navegacao a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.faixa-navegacao {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #003985;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.search {
+    width: 56px;
+    overflow: hidden;
+    transition: width 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.search:hover,
+.search:focus-within {
+    width: 230px;
+}
+.search input {
+    border: none;
+    background: transparent;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    color: #000;
 }
