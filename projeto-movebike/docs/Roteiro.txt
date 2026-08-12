@@ -1,0 +1,27 @@
+1.Finalizar Landing Page
+
+2.Criar Formulário (Culturama)
+	Briefing
+	Organização do projeto
+	HTML Semântico
+		Header
+		Section
+	Tag Form
+	 <form action method>
+
+3.Estilização do Formulário
+	Favicon
+	Logo
+	Títulos: Fjalla One (Google)
+	Textos: Work Sans (Google)
+	
+	Ligar CSS
+	Reset/Body
+	Tag Main (adicionar)*
+	Criar estilos gerais
+	
+
+4. Estilizando inputs
+	label/inputs
+
+5.SEO - Tech (Landing Page)
