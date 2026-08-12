@@ -4,8 +4,87 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Move Bike</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <main>
+        <img src="/projeto-movebike/images/logo-movebike-1x.png" alt="Logo Move Bike" class="logo">
+        <h1>Pesquisa de opinião</h1>
+        <section>
+            <form>
+                <fieldset>
+                    <legend> Dados Pessoais </legend>
+                    <label for="name">Nome:</label>
+                    <input id="name" type="text" name="name" placeholder="Nome" required><br>
+
+                    <label for="age">Idade:</label>
+                    <input id="age" type="number" name="age" placeholder="Idade" min="12" max="100" required><br>
+
+                    <label for="birthDate">Data de Nascimento:</label>
+                    <input id="birthDate" type="date" name="birthDate"><br>
+
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email" name="email" placeholder="E-mail" required><br>
+
+                    <label for="phone">Telefone:</label>
+                    <input id="phone" type="tel" name="phone" placeholder="Telefone" pattern="[0-9]{11}"><br>
+
+                    <label for="image">Foto:</label>
+                    <input id="image" type="file" name="image" accept="image/*"><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Perfil</legend>
+
+                    <p>Gênero:</p>
+                    <input type="radio" id="gender" name="gender" value="Masculino">
+                    <label for="gender">Masculino</label><br>
+                    <input type="radio" id="gender" name="gender" value="Feminino">
+                    <label for="gender">Feminino</label><br>
+                    <input type="radio" id="gender" name="gender" value="Prefiro não informar">
+                    <label for="gender">Prefiro não informar</label><br>
+                    <label for="maritalStatus">Estado Civil:</label>
+                    <select id="maritalStatus" name="maritalStatus">
+                        <option value="Solteiro">Solteiro</option>
+                        <option value="Casado">Casado</option>
+                        <option value="Divorciado">Divorciado</option>
+                        <option value="Viúvo">Viúvo</option>
+                        <option value="União Estável">União Estável</option>
+                    </select><br>
+                    <label for="userState">Estado:</label>
+                            <select name="userState">
+                                <option value="Acre"> Acre </option>
+                                <option value="Alagoas"> Alagoas </option>
+                                <option value="Amapa"> Amapá </option>
+                                <option value="Amazonas"> Amazonas </option>
+                                <option value="Bahia"> Bahia </option>
+                                <option value="Ceara"> Ceará </option>
+                                <option value="DistritoFederal"> Distrito Federal </option>
+                                <option value="EspiritoSanto"> Espirito Santo </option>
+                                <option value="Goias"> Goiás </option>
+                                <option value="Maranhao"> Maranhão </option>
+                                <option value="MatoGrossodoSul"> Mato Grosso do Sul </option>
+                                <option value="MatoGrosso"> Mato Grosso </option>
+                                <option value="MinasGerais"> Minas Gerais </option>
+                                <option value="Para"> Pará </option>
+                                <option value="Paraiba"> Paraíba </option>
+                                <option value="Parana"> Paraná </option>
+                                <option value="Pernambuco"> Pernambuco </option>
+                                <option value="Piaui"> Piauí </option>
+                                <option value="RiodeJaneiro "> Rio de Janeiro </option>
+                                <option value="RioGrandedoNorte "> Rio Grande do Norte </option>
+                                <option value="RioGrandedoSul"> Rio Grande do Sul </option>
+                                <option value="Rondonia"> Rondônia </option>
+                                <option value="Roraima"> Roraima </option>
+                                <option value="SantaCatarina"> Santa Catarina </option>
+                                <option value="SãoPaulo"> São Paulo </option>
+                                <option value="Sergipe"> Sergipe </option>
+                                <option value="Tocantins"> Tocantins </option>
+                            </select>
+                </fieldset>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
