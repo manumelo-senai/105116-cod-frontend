@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: "Work Sans", sans-serif;
+}
+
+main {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 35px;
+
+}
+
+form {
+    background-color: white;
+    padding: 15px;
+    border: 1px solid whitesmoke;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+fieldset {
+    padding: 15px;
+    border: 1px solid rgb(102, 97, 97);
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 10px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 1px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid rgb(102, 97, 97);
+    border-radius: 5px;
+}
