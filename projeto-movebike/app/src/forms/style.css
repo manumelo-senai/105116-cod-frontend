@@ -64,3 +64,49 @@ input, select, textarea {
     border: 1px solid rgb(102, 97, 97);
     border-radius: 5px;
 }
+
+textarea {
+    min-height: 100px;
+
+}
+
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+}
+
+input[type="color"] {
+    width: 40px;
+    height: 30px;
+    padding: 0;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid {
+    border-color: red;
+}
+
+input:valid,
+select:valid,
+textarea:valid {
+    border-color: green;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    background-color: whitesmoke;
+    border: 1px solid #445166;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #164d3f;
+    color: #bfdfcf;
+}
+
+button[type="reset"]:hover {
+    background-color: #770a0a;
+    color: #965959;
+}
